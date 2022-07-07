@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    font-family: Calibri, sans-serif;
+}
+
+.card{
+    width: 25vw;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#upload_img{
+    text-align: center;
+}
+
+input{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(134, 132, 132);
+    margin-bottom: 20px;
+}
+
+.submit input{
+    margin: 20px 0;
+    color: orangered;
+    padding: 10px 0px;
+    border-radius: 100px;
+}
+
+.submit input:hover{
+    cursor: pointer;
+}
+
+.submit input:active{
+    border: 1px solid white;
+}

@@ -1,0 +1,100 @@
+/* page 2 */
+
+body{
+    margin: 10px 10px;
+    /* margin-bottom: 100px; */
+}
+
+h1{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 6vw;
+    font-size: 2em;
+}
+
+h1 span{
+    color: orangered;
+}
+
+.main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feed{
+    width: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.post{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 30px;
+}
+
+.post_header{
+    border-radius: 10px 10px 0 0; 
+    background: white; 
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+}
+
+.post .post_header img{
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.footer{
+    padding: 10px 20px;
+    display: flex; 
+    align-items: center;
+}
+
+.footer i{
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.body img{
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.body p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body i{
+    font-size: 2em;
+}
+
+.snip{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.snip span{
+    margin-left: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.new{
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.new i{
+    font-size: 2em;
+}
