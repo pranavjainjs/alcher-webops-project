@@ -31,5 +31,5 @@ const findLocation = () => {
     navigator.geolocation.getCurrentPosition(success, error);
 }
 
-document.body.addEventListener('load', findLocation);
+window.addEventListener('load', findLocation);
 document.getElementById('location').addEventListener('click', findLocation);
