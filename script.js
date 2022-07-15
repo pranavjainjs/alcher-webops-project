@@ -1,3 +1,5 @@
+// document.body.addEventListener('load', findLocation);
+
 const ACCESS_TOKEN = 'pk.8abb152d62923fd639258172ddc3175f';
 const locTag = document.querySelector('#location');
 
@@ -29,5 +31,5 @@ const findLocation = () => {
     navigator.geolocation.getCurrentPosition(success, error);
 }
 
-// document.body.addEventListener('load', findLocation);
+document.body.addEventListener('load', findLocation);
 document.getElementById('location').addEventListener('click', findLocation);
