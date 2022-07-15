@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'>
-    <body>
+    <body onload="findLocation()">
         <div class="some_text">
             <h1>Alcheringa <span>Connect</span></h1><br>
         </div>
@@ -22,9 +22,12 @@
 
                     <h4>Caption</h4>
                     <input type="text" value="Give an image caption">
+                    <div class="location">
+                        <p id="location">Give location permissions</p>
+                    </div>
                 </div>
                 <div class="submit">
-                    <input type="button" value="Login">
+                    <input type="button" value="Share">
                 </div>
             </div>
 
@@ -63,5 +66,6 @@
             </div>
         </div>
 
+        <script src="script.js"></script>
     </body>
 </html>
